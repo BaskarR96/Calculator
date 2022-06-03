@@ -10,6 +10,9 @@ body{
             margin: 8px 0;
             border-radius: 30px;
             font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             @include font-style($font-mb);
             @include media-min-md{
                 width: 70px;
@@ -19,17 +22,14 @@ body{
         }
         .red{
             color: $red;
-            &:hover{
-                color: $black !important;
-            }
         }
     }
 }
 @each $btn in $buttons {
-    .btn-#{nth($btn, 1)} {
+    .btn{
         &:hover, &:active {
-            background-color: nth($btn, 2) !important;
-            color: $white;
+            background-color: nth($btn, 1) !important;
+            color: $white !important;
         }
     }
 }
