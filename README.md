@@ -11,7 +11,7 @@
 
 # How to Use
 
-    Clone the repository: git clone https://github.com/your-username/web-calculator.git
+    Clone the repository: git clone https://github.com/BaskarR96/Calculator.git
     Open index.html in your preferred browser to access the calculator.
 
 # Dependencies
